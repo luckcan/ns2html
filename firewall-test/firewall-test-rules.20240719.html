@@ -1,0 +1,83 @@
+   <HTML>
+      <HEADER>
+         <TITLE>NS2HTML - Netscreen Config Parser </TITLE>
+       <style type="text/css">
+     <!--
+       BODY
+     {
+       margin: 0;
+       padding: 0;
+     }
+   
+     BODY, P, DIV, TD, TH, TR, FORM, OL, UL, LI, INPUT, TEXTAREA, SELECT, A
+     {
+       font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+       font-size: 9px;
+         }
+   
+     A:hover  {
+       color: #3366CC;
+           text-decoration: none;
+     }
+   
+     A  {
+       color: #3366CC;
+           text-decoration: underline;
+     }
+   
+     .code
+     {
+           font-family: Courier, "Courier New", Monospaced, Serif;
+     }
+     -->
+   </style>
+
+   <BODY BGCOLOR=WHITE>
+      <FONT SIZE=6 FACE=TIMES><B>Rulebase for firewall-test</B></FONT><BR>
+      <FONT SIZE=5 FACE=TIMES> <B>Creation:</B> 19/07/2024 at 09:34:46 h</FONT><P>
+      <HR>
+      <BR>
+      <BR>
+      <FONT SIZE=2 COLOR=BLACK>From Trust To Untrust, Total policy: </FONT>
+      <TABLE BORDER=1>
+         <TR>
+            <TD ALIGN=MIDDLE WIDTH=20 BGCOLOR=#99CCFF><B>ID</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#99CCFF><B>Source</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#99CCFF><B>Destination</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#99CCFF><B>Service</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#99CCFF><B>Action</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#99CCFF><B>Options</B></TD>
+         </TR>
+         <TR>
+         <TD ALIGN=MIDDLE WIDTH=20 BGCOLOR=#CACACA>1</TD>
+         <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#F4F4F4><A HREF="firewall-test-addr.20240719.html">"SAIDA_FULL"</A></TD>
+         <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#F4F4F4><A HREF="firewall-test-addr.20240719.html">Any</A></TD>
+         <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#F4F4F4><A HREF="firewall-test-svc.20240719.html">ANY</A></TD>
+         <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#F4F4F4><IMG SRC=images/allow.gif alt=Permit>  </TD>
+         <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#F4F4F4>&nbsp; <IMG SRC=images/log.gif alt='Log'> &nbsp; &nbsp;</TD>
+      </TR>
+      <TR>
+</TABLE>
+      <BR>
+      <FONT SIZE=2 COLOR=BLACK>From Untrust To Trust, Total policy: </FONT>
+      <TABLE BORDER=1>
+         <TR>
+            <TD ALIGN=MIDDLE WIDTH=20 BGCOLOR=#99CCFF><B>ID</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#99CCFF><B>Source</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#99CCFF><B>Destination</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#99CCFF><B>Service</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#99CCFF><B>Action</B></TD>
+            <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#99CCFF><B>Options</B></TD>
+         </TR>
+         <TR>
+         <TD ALIGN=MIDDLE WIDTH=20 BGCOLOR=#CACACA>2</TD>
+         <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#F4F4F4><A HREF="firewall-test-addr.20240719.html">"Any"</A></TD>
+         <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#F4F4F4><A HREF="firewall-test-addr.20240719.html">MIP(200.200.200.201)</A></TD>
+         <TD ALIGN=MIDDLE WIDTH=200 BGCOLOR=#F4F4F4><A HREF="firewall-test-svc.20240719.html">HTTP</A></TD>
+         <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#F4F4F4><IMG SRC=images/allow.gif alt=Permit>  </TD>
+         <TD ALIGN=MIDDLE WIDTH=80 BGCOLOR=#F4F4F4>&nbsp; <IMG SRC=images/log.gif alt='Log'> &nbsp; &nbsp;</TD>
+      </TR>
+      <TR>
+</TABLE>
+   </BODY>
+   </HTML>
