@@ -1,0 +1,10 @@
+Service Groups :
+Group Name                    Count Comment                         Type
+MGCP                              2 Media Gateway Control Protocol  Pre-defined
+MS-AD                             4 Microsoft Active Directory      Pre-defined
+MS-EXCHANGE                       6 Microsoft Exchange              Pre-defined
+MS-IIS                            6 Microsoft IIS Server            Pre-defined
+VOIP                              5 VOIP Service Group              Pre-defined
+8080-10443                        2                                 User-defined
+HTTP+HTTPS                        2                                 User-defined
+PING-FTP-TRACE                    3                                 User-defined

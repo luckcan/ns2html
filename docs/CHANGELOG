@@ -1,0 +1,35 @@
+11/02/2008 - NS2HTML-0.4.1 available.
+             Version: 0.4.1
+             Fixes: - Old error proccessing was corrected:
+                       > Vsys support was corrected when naming HTML files.
+                       > There was an error when proccessing the rules actions. 
+                         We only was able to proccess 'permit', 'deny', etc 
+                         (only in lowercase). Now, we use REGEX to proccess all
+                         occurency of actions.
+                       > Some code was improved and corrected. 
+31/01/2008 - NS2HTML-0.4 available.
+             Version: 0.4
+             Fixes: - Some structures were corrected.
+                    - Ancient errors was cleared.
+             New Features: - Now, object names with blank spaces are supported.
+             ToDo: - There are some proccessing mistakes on SvcCreator.pl.
+                   - Change proc_line() sub for a SED or REGEX expression.
+             Developer: Pace (rodrigo.pace.barros@gmail.com)
+10/01/2008 - NS2Html-0.3a available.
+             Version: 0.3a
+             Fixes: - Some minor coding errors were corrected.
+21/12/2007 - NS2Html-0.3 available.
+             Version: 0.3
+             Fixes: - No more mysql needed.
+                    - New directory '/tmp' used for temporary files.
+                    - Docs updated.
+             Developer: Pace (rodrigo.pace.barros@gmail.com)
+12/11/2007 - NS2Html-0.2 available.
+             Version: 0.2
+             Fixes: - Non-admin users can now use ns2html.
+                    - Some fixes corrected.
+             Developer: Pace (rodrigo.pace.barros@gmail.com)
+23/10/2007 - NS2HTML available. First run for Internet users. Hope it helps!;)
+             Version: 0.1
+             Fixes: None
+             Developer: Pace (rodrigo.pace.barros@gmail.com)

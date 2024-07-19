@@ -1,0 +1,51 @@
+##########################################################################
+#            NS2HTML - The Netscreen to HTML file converter              #
+##########################################################################
+# Developed by: Rodrigo Pace de Barros - rodrigo.pace.barros@gmail.com   #
+# ============= 2007 - Brazil                                            #
+##########################################################################
+##########################################################################
+#   Copyright (C) by                                                     #
+#     - 2007: Rodrigo Pace de Barros <rodrigo.pace.barros@gmail.com>     #
+#                                                                        #
+#   This program is free software; you can redistribute it and/or modify #
+#   it under the terms of the GNU General Public License as published by #
+#   the Free Software Foundation; either version 2 of the License, or    #
+#   (at your option) any later version.                                  #
+#                                                                        #
+##########################################################################
+
+BEFORE INSTALLING
+====== ==========
+
+   REQUIREMENTS
+   ------------
+
+   The NS2Html scripts were written in Perl. This way, some modules was
+necessary to become easy the developer's life. The only module used on the
+scripts is the following:
+
+   - Getopt::Std
+
+INSTALLING THE NS2HTML
+========== === =======
+
+   INSTALATION PROCEDURES
+   ----------- ----------
+
+   Step 1 - The steps bellow  must be followed. ;)
+   Step 2 - Unpacking the source file
+
+   # gunzip ns2html-0.4.1.tar.gz
+   # tar -xvf ns2html-0.4.1.tar
+
+   Step 3 - Done. Too hard, huh?!!!
+
+SECURITY CONSIDERATIONS
+======== ==============
+
+   In this version, Mysql is not even more required. So, non-admin users
+can use NS2HTML on their Netscreen config files.
+
+   In order to get some security (I hope), we recommend that you store 
+your Netscreen's backups on a directory with a good level of security.
